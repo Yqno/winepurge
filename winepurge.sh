@@ -27,7 +27,6 @@ for user in /home/*; do
         rm -rf "$user/.local/share/nuget/"
         rm -rf "$user/.cache/nuget/"
         rm -rf "$user/.cache/dotnet/"
-        rm -rf "$user/.cache/nuget/"
         
         echo "Cleaned Wine files for user: $(basename "$user")"
     fi
