@@ -40,7 +40,7 @@ for user_dir in /home/*; do
             "$user_dir/.nuget"
             "$user_dir/.dotnet"
             "$user_dir/.local/share/dotnet"
-            "$user_dir/.local/share/nuget"
+            "$user_dir/.local/share/NuGet"
             "$user_dir/.cache/nuget"
             "$user_dir/.cache/dotnet"
         )
